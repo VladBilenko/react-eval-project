@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ApplicationNode from './ApplicationNode'
+import App from './App'
 import {unregister} from './services/registerServiceWorker'
 import store from './services/store'
 
@@ -9,14 +9,14 @@ const render = (Component) => {
     <Component store={store} />,
     document.getElementById('root')
   )
-}
+};
 
-render(ApplicationNode)
-unregister()
+render(App);
+unregister();
 
 if (process.env.NODE_ENV === 'development' && module.hot) {
-  module.hot.accept('./ApplicationNode', () => {
-    const NextApp = require('./ApplicationNode').default
+  module.hot.accept('./App', () => {
+    const NextApp = require('./App').default;
     render(NextApp)
   })
 }

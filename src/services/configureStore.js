@@ -1,4 +1,5 @@
-import {createStore, applyMiddleware, compose} from 'redux'
+import {createStore, applyMiddleware} from 'redux'
+import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
 import rootReducer from 'reducers'
 import {createLogger} from 'redux-logger'
@@ -19,7 +20,7 @@ export default function configureStore (initialState = {}) {
   }
 
   const enhancers = [applyMiddleware(...middleware)]
-  const store = createStore(rootReducer, initialState, compose(...enhancers))
+  const store = createStore(rootReducer, initialState, composeWithDevTools(...enhancers))
 
   // For hot reloading of react components and debugging
   if (process.env.NODE_ENV !== 'production' && module.hot) {
