@@ -1,5 +1,9 @@
-.header {
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
+@import "../../assets/styles/mixines.scss";
+@import "../../assets/styles/vars.scss";
+
+.header__container {
+  @include flex-around-center;
+  padding: 2rem 3rem;
+  background-color: $color-blue;
+  color: $color-white;
 }

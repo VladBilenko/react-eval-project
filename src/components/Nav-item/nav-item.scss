@@ -1,0 +1,15 @@
+@import "../../assets/styles/mixines.scss";
+@import "../../assets/styles/vars.scss";
+
+.nav__item {
+  padding-left: 10px;
+}
+
+.nav__link {
+  color: $color-white;
+  transition: color 0.3s;
+
+  &.active, &:hover {
+    color: $gray-color;
+  }
+}

@@ -1,0 +1,5 @@
+@import "../../assets/styles/mixines.scss";
+
+.nav__container {
+  @include flex-around-center;
+}

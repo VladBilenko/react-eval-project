@@ -1,17 +1,20 @@
-import './header.scss'
-
-import React, {Component} from 'react'
+import './header.scss';
+import React, {Component} from 'react';
+import AppBar from "@material-ui/core/AppBar/AppBar";
+import Title from "../Title";
+import Nav from "../Nav";
 
 export default class Header extends Component {
-  static propTypes = {}
-
-  state = {}
+  static propTypes = {};
 
   render () {
     return (
-      <div styleName='header'>
-        <h2>Welcome to Clear Capital React!</h2>
-      </div>
+      <AppBar position="static" color="default">
+        <div styleName='header__container'>
+          <Title />
+          <Nav />
+        </div>
+      </AppBar>
     )
   }
 }
