@@ -1,0 +1,19 @@
+.chart__container {
+  max-width: 560px;
+  margin: 0 auto; }
+
+.chart__title {
+  font-size: 1.2rem;
+  color: #6a6a6a; }
+
+.bar rect {
+  shape-rendering: crispEdges;
+  fill: #2196f3; }
+
+.bar text {
+  fill: #6a6a6a; }
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #6a6a6a;
+  shape-rendering: crispEdges; }
