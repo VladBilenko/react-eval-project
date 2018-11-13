@@ -1,11 +1,11 @@
-import {SET_REPOS} from 'constants/actionTypes'
+import {SET_REPOS} from '../constants/action-types'
 
 export function getRepos () {
   return (dispatch) => {
     setTimeout(() => {
       dispatch({
         type: SET_REPOS,
-        payload: require('./repos.json')
+        payload: require('../mocks/repos.json')
       })
     }, 1000)
   }
