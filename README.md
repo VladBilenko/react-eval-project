@@ -39,7 +39,6 @@ Feel free to contact us along the way with questions.
 ## Comments after finish
 
 - To start project run `npm start` as always.
-- You can find it on GitHub Pages: https://vladbilenko.github.io/react-eval-project/ , when I writing this, it have 404 request ;)
 - I changed structure of project
 - GitHub events have various data structure, that's why you can find `__getValueFromPayload` method in https://github.com/VladBilenko/react-eval-project/blob/master/src/models/event.model.js ;)
 - If you think, that containers markup is redundant, it can be, but, to my opinion, it`s flexible
