@@ -1,0 +1,15 @@
+.user__head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .user__head_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 2rem; }
+    .user__head_info p {
+      padding-top: 1rem; }
+  .user__head .user__img {
+    width: 150px;
+    height: 150px; }

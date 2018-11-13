@@ -1,0 +1,9 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  color: #ffffff; }
+
+header.header__wrapper {
+  background-color: #2196f3; }

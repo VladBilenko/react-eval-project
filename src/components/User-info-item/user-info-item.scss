@@ -1,0 +1,12 @@
+@import "../../assets/styles/mixines.scss";
+@import "../../assets/styles/vars.scss";
+
+.info {
+  &__title {
+    text-transform: capitalize;
+  }
+
+  &__item {
+    padding-top: 1rem;
+  }
+}

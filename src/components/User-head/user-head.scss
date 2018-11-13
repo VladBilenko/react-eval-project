@@ -1,0 +1,22 @@
+@import "../../assets/styles/vars.scss";
+@import "../../assets/styles/mixines.scss";
+
+.user {
+  &__head {
+    @include flex-start-center;
+
+    &_info {
+      @include flex-column-start;
+      padding-left: 2rem;
+
+      p {
+        padding-top: 1rem;
+      }
+    }
+
+    .user__img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../assets/styles/vars.scss";
+@import "../../assets/styles/mixines.scss";
+
+.user {
+  &__info {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+}

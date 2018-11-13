@@ -1,0 +1,8 @@
+.nav__item {
+  padding-left: 10px; }
+
+.nav__link {
+  color: #ffffff;
+  transition: color 0.3s; }
+  .nav__link.active, .nav__link:hover {
+    color: #6a6a6a; }
