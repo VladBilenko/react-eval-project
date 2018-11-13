@@ -9,14 +9,14 @@ const render = (Component) => {
     <Component store={store} />,
     document.getElementById('root')
   )
-};
+}
 
-render(App);
-unregister();
+render(App)
+unregister()
 
 if (process.env.NODE_ENV === 'development' && module.hot) {
   module.hot.accept('./App', () => {
-    const NextApp = require('./App').default;
+    const NextApp = require('./App').default
     render(NextApp)
   })
 }

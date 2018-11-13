@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux'
-import repos from './reposReducer'
-import user from './userReducer'
-import events from './eventsReducer'
+import repos from './repos.reducer'
+import user from './user.reducer'
+import events from './events.reducer'
 
 export default combineReducers({
   repos,

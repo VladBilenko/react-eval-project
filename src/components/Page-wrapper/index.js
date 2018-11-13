@@ -1,1 +1,1 @@
-export {default} from  './Page-wrapper';
+export {default} from './page-wrapper.component'

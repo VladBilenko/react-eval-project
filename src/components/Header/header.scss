@@ -1,9 +1,15 @@
 @import "../../assets/styles/mixines.scss";
 @import "../../assets/styles/vars.scss";
 
-.header__container {
-  @include flex-around-center;
-  padding: 2rem 3rem;
+
+.header {
+  &__container {
+    @include flex-around-between;
+    padding: 2rem 3rem;
+    color: $color-white;
+  }
+}
+
+header.header__wrapper {
   background-color: $color-blue;
-  color: $color-white;
 }

@@ -1,0 +1,16 @@
+@import "../../assets/styles/mixines.scss";
+@import "../../assets/styles/vars.scss";
+
+.loader {
+  &__wrapper {
+    @include flex-column-center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__text {
+    padding-top: 1rem;
+  }
+}

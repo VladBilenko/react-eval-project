@@ -1,3 +1,3 @@
 import configureStore from 'services/configureStore'
-const store = configureStore();
-export default store;
+const store = configureStore()
+export default store
